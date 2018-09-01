@@ -1,0 +1,24 @@
+# terraform variables values, update this file with your own values
+heroku_account_email = "john.doe@example.com"
+
+heroku_api_key = "heroku_api_key"
+
+heroku_pipeline_name = "heroku-terraform"
+
+heroku_develop_app = "heroku-terraform-develop"
+
+heroku_staging_app = "heroku-terraform-staging"
+
+heroku_production_app = "heroku-terraform-production"
+
+heroku_region = "us"
+
+heroku_develop_database = "heroku-postgresql:hobby-basic"
+
+heroku_staging_database = "heroku-postgresql:hobby-basic"
+
+heroku_production_database = "heroku-postgresql:hobby-basic"
+
+heroku_app_buildpacks = [
+  "heroku/go",
+]
