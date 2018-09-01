@@ -12,4 +12,13 @@ variable "heroku_develop_app" {}
 variable "heroku_staging_app" {}
 variable "heroku_production_app" {}
 variable "heroku_region" {}
-variable "heroku_app_buildpacks" {}
+
+variable "heroku_app_buildpacks" {
+  type = "list"
+}
+
+# Addons variable
+variable "heroku_develop_database" {}
+
+variable "heroku_staging_database" {}
+variable "heroku_production_database" {}
